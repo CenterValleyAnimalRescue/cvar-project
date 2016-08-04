@@ -13,6 +13,10 @@
   ],
   "repositories": [
       {
+          "type": "composer",
+          "url": "https://wpackagist.org"
+      },
+      {
           "type": "package",
           "package": {
               "name": "misfist/center-valley-animal-rescue",
