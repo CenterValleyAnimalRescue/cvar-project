@@ -35,6 +35,8 @@
       }
   ],
   "require": {
+      "wpackagist-plugin/admin-management-xtended": "2.4.0.1",
+      "wpackagist-plugin/admin-post-navigation": "2.0",
       "wpackagist-plugin/be-subpages-widget": "1.6",
       "wpackagist-plugin/caldera-forms": "1.4.1",
       "wpackagist-plugin/caldera-form-metabox": "2.1.2",
