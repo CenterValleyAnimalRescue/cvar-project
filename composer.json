@@ -19,16 +19,16 @@
       {
           "type": "package",
           "package": {
-              "name": "humanmade/shortcake",
+              "name": "fusioneng/Shortcake",
               "version": "master",
               "type": "wordpress-plugin",
               "dist": {
                   "type": "zip",
-                  "url": "https://github.com/humanmade/shortcake/archive/master.zip"
+                  "url": "https://github.com/fusioneng/Shortcake/archive/master.zip"
               },
               "source": {
                   "type": "git",
-                  "url": "https://github.com/humanmade/shortcake.git",
+                  "url": "https://github.com/fusioneng/Shortcake.git",
                   "reference": "master"
               }
           }
@@ -46,6 +46,23 @@
               "source": {
                   "type": "git",
                   "url": "https://github.com/misfist/cvar-core-functionality.git",
+                  "reference": "master"
+              }
+          }
+      },
+      {
+          "type": "package",
+          "package": {
+              "name": "misfist/wp-call-to-action",
+              "version": "master",
+              "type": "wordpress-plugin",
+              "dist": {
+                  "type": "zip",
+                  "url": "https://github.com/misfist/wp-call-to-action/archive/master.zip"
+              },
+              "source": {
+                  "type": "git",
+                  "url": "https://github.com/misfist/wp-call-to-action.git",
                   "reference": "master"
               }
           }
@@ -71,21 +88,23 @@
   "require": {
       "wpackagist-plugin/admin-management-xtended": "2.4.0.1",
       "wpackagist-plugin/admin-post-navigation": "2.0",
+      "wpackagist-plugin/advanced-custom-fields": "4.4.8",
+      "wpackagist-plugin/advanced-custom-fields-link-picker-field": "1.1.1",
       "wpackagist-plugin/be-subpages-widget": "1.6",
       "wpackagist-plugin/caldera-forms": "1.4.1",
-      "wpackagist-plugin/caldera-form-metabox": "2.1.2",
       "wpackagist-plugin/caldera-metaplate": "0.4.2",
+      "wpackagist-plugin/flexible-posts-widget": "3.5.0",
+      "wpackagist-plugin/icopaw-customizable-animal-rescue-icons": "1.0",
       "wpackagist-plugin/jetpack": "4.2-beta4",
       "wpackagist-plugin/members": "1.1.2",
       "wpackagist-plugin/ml-slider": "3.3.7",
       "wpackagist-plugin/nav-menu-roles": "1.8.2",
-      "wpackagist-plugin/siteorigin-panels": "2.4.10",
+      "wpackagist-plugin/siteorigin-panels": "2.4.11",
       "wpackagist-plugin/paypal-donations": "1.9.3",
       "wpackagist-plugin/petfinder-search-rescue": "1.02",
-      "wpackagist-plugin/pods": "2.6.6",
       "wpackagist-plugin/shortcake-bakery": "0.1.0",
       "wpackagist-plugin/simply-show-ids": "1.3.3",
-      "wpackagist-plugin/so-widgets-bundle": "1.6.4",
+      "wpackagist-plugin/so-widgets-bundle": "1.6.5",
       "wpackagist-plugin/addon-so-widgets-bundle": "2.4.1",
       "wpackagist-plugin/post-type-archive-links": "1.3.1",
       "wpackagist-plugin/widget-css-classes": "1.3.0",
@@ -94,9 +113,10 @@
       "wpackagist-plugin/wp-term-icons": "0.1.2",
       "wpackagist-plugin/wp-term-images": "0.3.1",
       "wpackagist-theme/vantage": "1.5",
+      "misfist/wp-call-to-action": "dev-master",
       "misfist/cvar-core-functionality": "dev-master",
       "misfist/center-valley-animal-rescue": "dev-master",
-      "humanmade/shortcake": "dev-master"
+      "fusioneng/Shortcake": "dev-master"
   },
   "require-dev": {
       "wpackagist-plugin/customizer-reset-by-wpzoom": "1.0.1",
