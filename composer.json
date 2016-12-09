@@ -99,7 +99,7 @@
       "wpackagist-plugin/members": "^1.1.2",
       "wpackagist-plugin/ml-slider": "^3.3.7",
       "wpackagist-plugin/nav-menu-roles": "^1.8.3",
-      "wpackagist-plugin/siteorigin-panels": "^2.4.13",
+      "wpackagist-plugin/siteorigin-panels": "dev-trunk",
       "wpackagist-plugin/petfinder-search-rescue": "^1.02",
       "wpackagist-plugin/search-filter": "^1.2.9",
       "wpackagist-plugin/shortcode-ui": "^0.7.0",
