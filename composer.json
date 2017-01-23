@@ -19,23 +19,6 @@
       {
           "type": "package",
           "package": {
-              "name": "fusioneng/Shortcake",
-              "version": "master",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "https://github.com/fusioneng/Shortcake/archive/master.zip"
-              },
-              "source": {
-                  "type": "git",
-                  "url": "https://github.com/fusioneng/Shortcake.git",
-                  "reference": "master"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
               "name": "misfist/cvar-core-functionality",
               "version": "master",
               "type": "wordpress-plugin",
@@ -89,22 +72,16 @@
       "wpackagist-plugin/admin-management-xtended": "^2.4.0.1",
       "wpackagist-plugin/admin-post-navigation": "^2.0",
       "wpackagist-plugin/advanced-custom-fields": "^4.4.8",
-      "wpackagist-plugin/advanced-custom-fields-link-picker-field": "^1.1.1",
       "wpackagist-plugin/be-subpages-widget": "^1.6",
       "wpackagist-plugin/caldera-forms": "^1.4.1",
       "wpackagist-plugin/custom-post-type-ui": "^1.4.3",
-      "wpackagist-plugin/flexible-posts-widget": "^3.5.0",
-      "wpackagist-plugin/icopaw-customizable-animal-rescue-icons": "^1.0",
       "wpackagist-plugin/jetpack": "^4.2.2",
       "wpackagist-plugin/members": "^1.1.2",
       "wpackagist-plugin/ml-slider": "^3.3.7",
       "wpackagist-plugin/nav-menu-roles": "^1.8.3",
-      "wpackagist-plugin/siteorigin-panels": "dev-trunk",
-      "wpackagist-plugin/petfinder-search-rescue": "^1.02",
+      "wpackagist-plugin/siteorigin-panels": "^2.4.21",
       "wpackagist-plugin/search-filter": "^1.2.9",
       "wpackagist-plugin/shortcode-ui": "^0.7.0",
-      "wpackagist-plugin/shortcake-bakery": "^0.1.0",
-      "wpackagist-plugin/simply-show-ids": "^1.3.3",
       "wpackagist-plugin/so-widgets-bundle": "^1.6.5",
       "wpackagist-plugin/addon-so-widgets-bundle": "^2.4.1",
       "wpackagist-plugin/post-type-archive-links": "^1.3.1",
@@ -119,10 +96,12 @@
       "misfist/center-valley-animal-rescue": "dev-master"
   },
   "require-dev": {
-      "wpackagist-plugin/customizer-reset-by-wpzoom": "1.0.1",
-      "wpackagist-plugin/developer": "1.2.6",
-      "wpackagist-plugin/which-template": "4.0",
-      "wpackagist-plugin/wp-log-viewer": "1.0.6"
+      "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
+      "wpackagist-plugin/developer": "^1.2.6",
+      "wpackagist-plugin/jetpack-module-control": "^1.5",
+      "wpackagist-plugin/simply-show-ids": "^1.3.3",
+      "wpackagist-plugin/which-template": "^4.0",
+      "wpackagist-plugin/wp-log-viewer": "^1.0.6"
   },
   "keywords": [
     "wordpress"
