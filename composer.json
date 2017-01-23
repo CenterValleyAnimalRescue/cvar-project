@@ -36,23 +36,6 @@
       {
           "type": "package",
           "package": {
-              "name": "misfist/wp-call-to-action",
-              "version": "master",
-              "type": "wordpress-plugin",
-              "dist": {
-                  "type": "zip",
-                  "url": "https://github.com/misfist/wp-call-to-action/archive/master.zip"
-              },
-              "source": {
-                  "type": "git",
-                  "url": "https://github.com/misfist/wp-call-to-action.git",
-                  "reference": "master"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
               "name": "misfist/center-valley-animal-rescue",
               "version": "v0.0.2",
               "type": "wordpress-theme",
@@ -91,7 +74,6 @@
       "wpackagist-plugin/wp-term-icons": "^0.1.2",
       "wpackagist-plugin/wp-term-images": "^1.0.0",
       "wpackagist-theme/vantage": "^1.5",
-      "misfist/wp-call-to-action": "dev-master",
       "misfist/cvar-core-functionality": "dev-master",
       "misfist/center-valley-animal-rescue": "v0.0.2"
   },
