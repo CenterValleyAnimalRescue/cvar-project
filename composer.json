@@ -54,7 +54,7 @@
           "type": "package",
           "package": {
               "name": "misfist/center-valley-animal-rescue",
-              "version": "master",
+              "version": "v0.0.2",
               "type": "wordpress-theme",
               "dist": {
                   "type": "zip",
@@ -73,9 +73,9 @@
       "wpackagist-plugin/admin-post-navigation": "^2.0",
       "wpackagist-plugin/advanced-custom-fields": "^4.4.8",
       "wpackagist-plugin/be-subpages-widget": "^1.6",
-      "wpackagist-plugin/caldera-forms": "^1.4.1",
-      "wpackagist-plugin/custom-post-type-ui": "^1.4.3",
-      "wpackagist-plugin/jetpack": "^4.2.2",
+      "wpackagist-plugin/caldera-forms": "^1.4.8",
+      "wpackagist-plugin/custom-post-type-ui": "^1.5.1",
+      "wpackagist-plugin/jetpack": "^4.5",
       "wpackagist-plugin/members": "^1.1.2",
       "wpackagist-plugin/ml-slider": "^3.3.7",
       "wpackagist-plugin/nav-menu-roles": "^1.8.3",
@@ -89,11 +89,11 @@
       "wpackagist-plugin/wp-media-categories": "^1.0.1",
       "wpackagist-plugin/wp-term-colors": "^0.1.4",
       "wpackagist-plugin/wp-term-icons": "^0.1.2",
-      "wpackagist-plugin/wp-term-images": "^0.3.1",
+      "wpackagist-plugin/wp-term-images": "^1.0.0",
       "wpackagist-theme/vantage": "^1.5",
       "misfist/wp-call-to-action": "dev-master",
       "misfist/cvar-core-functionality": "dev-master",
-      "misfist/center-valley-animal-rescue": "dev-master"
+      "misfist/center-valley-animal-rescue": "v0.0.2"
   },
   "require-dev": {
       "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
