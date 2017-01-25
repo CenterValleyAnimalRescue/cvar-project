@@ -37,7 +37,7 @@
           "type": "package",
           "package": {
               "name": "misfist/center-valley-animal-rescue",
-              "version": "v0.0.5",
+              "version": "v0.0.6",
               "type": "wordpress-theme",
               "dist": {
                   "type": "zip",
@@ -76,7 +76,7 @@
       "wpackagist-plugin/wp-term-images": "^1.0.0",
       "wpackagist-theme/vantage": "^1.5",
       "misfist/cvar-core-functionality": "dev-master",
-      "misfist/center-valley-animal-rescue": "v0.0.5"
+      "misfist/center-valley-animal-rescue": "v0.0.6"
   },
   "require-dev": {
       "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
