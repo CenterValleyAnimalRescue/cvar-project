@@ -53,6 +53,7 @@
   ],
   "require": {
       "wpackagist-plugin/admin-management-xtended": "^2.4.0.1",
+      "wpackagist-plugin/codepress-admin-columns": "^2.5.6.4",
       "wpackagist-plugin/admin-post-navigation": "^2.0",
       "wpackagist-plugin/advanced-custom-fields": "^4.4.8",
       "wpackagist-plugin/be-subpages-widget": "^1.6",
@@ -75,7 +76,7 @@
       "wpackagist-plugin/wp-term-images": "^1.0.0",
       "wpackagist-theme/vantage": "^1.5",
       "misfist/cvar-core-functionality": "dev-master",
-      "misfist/center-valley-animal-rescue": "v0.0.4"
+      "misfist/center-valley-animal-rescue": "v0.0.5"
   },
   "require-dev": {
       "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
