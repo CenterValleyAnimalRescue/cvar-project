@@ -37,7 +37,7 @@
           "type": "package",
           "package": {
               "name": "misfist/center-valley-animal-rescue",
-              "version": "v0.0.4",
+              "version": "v0.0.5",
               "type": "wordpress-theme",
               "dist": {
                   "type": "zip",
