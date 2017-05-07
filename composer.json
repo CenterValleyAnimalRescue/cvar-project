@@ -36,6 +36,23 @@
       {
           "type": "package",
           "package": {
+              "name": "misfist/pet-rescue-theme",
+              "version": "1.0.0",
+              "type": "wordpress-theme",
+              "dist": {
+                  "type": "zip",
+                  "url": "https://github.com/misfist/pet-rescue-theme/archive/master.zip"
+              },
+              "source": {
+                  "type": "git",
+                  "url": "https://github.com/misfist/pet-rescue-theme.git",
+                  "reference": "master"
+              }
+          }
+      },
+      {
+          "type": "package",
+          "package": {
               "name": "CenterValleyAnimalRescue/center-valley-animal-rescue",
               "version": "master",
               "type": "wordpress-theme",
@@ -73,9 +90,9 @@
     "wpackagist-plugin/wp-term-colors": "^0.1.4",
     "wpackagist-plugin/wp-term-icons": "^0.1.2",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
-    "wpackagist-theme/vantage": "^1.5",
+    "misfist/pet-rescue-theme": "dev-master",
     "CenterValleyAnimalRescue/cvar-core-functionality": "0.1.1",
-    "CenterValleyAnimalRescue/center-valley-animal-rescue": "dev-master"
+    "CenterValleyAnimalRescue/center-valley-animal-rescue": "1.0.0"
   },
   "require-dev": {
       "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
