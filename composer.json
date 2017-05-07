@@ -20,7 +20,7 @@
           "type": "package",
           "package": {
               "name": "CenterValleyAnimalRescue/cvar-core-functionality",
-              "version": "master",
+              "version": "0.1.1",
               "type": "wordpress-plugin",
               "dist": {
                   "type": "zip",
@@ -74,7 +74,7 @@
     "wpackagist-plugin/wp-term-icons": "^0.1.2",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
     "wpackagist-theme/vantage": "^1.5",
-    "CenterValleyAnimalRescue/cvar-core-functionality": "dev-master",
+    "CenterValleyAnimalRescue/cvar-core-functionality": "0.1.1",
     "CenterValleyAnimalRescue/center-valley-animal-rescue": "dev-master"
   },
   "require-dev": {
