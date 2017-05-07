@@ -54,7 +54,7 @@
           "type": "package",
           "package": {
               "name": "CenterValleyAnimalRescue/center-valley-animal-rescue",
-              "version": "master",
+              "version": "1.0.0",
               "type": "wordpress-theme",
               "dist": {
                   "type": "zip",
