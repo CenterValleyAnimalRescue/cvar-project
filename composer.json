@@ -36,7 +36,7 @@
       {
           "type": "package",
           "package": {
-              "name": "misfist/pet-rescue-theme",
+              "name": "misfist/pet-rescue",
               "version": "1.1.8",
               "type": "wordpress-theme",
               "dist": {
@@ -90,7 +90,7 @@
     "wpackagist-plugin/wp-term-colors": "^0.1.4",
     "wpackagist-plugin/wp-term-icons": "^0.1.2",
     "wpackagist-plugin/wp-term-images": "^1.0.0",
-    "misfist/pet-rescue-theme": "^1.1.8",
+    "misfist/pet-rescue": "^1.1.8",
     "CenterValleyAnimalRescue/cvar-core-functionality": "0.1.1",
     "CenterValleyAnimalRescue/center-valley-animal-rescue": "1.0.0"
   },
