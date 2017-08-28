@@ -1,9 +1,9 @@
 {
-  "name": "misfist/cvar-project",
+  "name": "CenterValleyAnimalRescue/cvar-project",
   "type": "wordpress-project",
   "license": "GPL-3.0",
   "description": "Site packages for centervalleyanimalrescue.org.",
-  "homepage": "https://github.com/misfist/cvar-project",
+  "homepage": "https://github.com/CenterValleyAnimalRescue/cvar-project",
   "authors": [
     {
       "name": "Pea",
@@ -20,7 +20,7 @@
           "type": "package",
           "package": {
               "name": "CenterValleyAnimalRescue/cvar-core-functionality",
-              "version": "0.1.1",
+              "version": "0.2.0",
               "type": "wordpress-plugin",
               "dist": {
                   "type": "zip",
@@ -36,25 +36,8 @@
       {
           "type": "package",
           "package": {
-              "name": "CenterValleyAnimalRescue/pet-rescue",
-              "version": "1.1.8",
-              "type": "wordpress-theme",
-              "dist": {
-                  "type": "zip",
-                  "url": "https://github.com/CenterValleyAnimalRescue/pet-rescue-theme/archive/master.zip"
-              },
-              "source": {
-                  "type": "git",
-                  "url": "https://github.com/CenterValleyAnimalRescue/pet-rescue-theme.git",
-                  "reference": "master"
-              }
-          }
-      },
-      {
-          "type": "package",
-          "package": {
               "name": "CenterValleyAnimalRescue/center-valley-animal-rescue",
-              "version": "1.0.1",
+              "version": "3.0.0",
               "type": "wordpress-theme",
               "dist": {
                   "type": "zip",
@@ -69,35 +52,33 @@
       }
   ],
   "require": {
-    "wpackagist-plugin/admin-management-xtended": "^2.4.0.1",
-    "wpackagist-plugin/codepress-admin-columns": "^2.5.6.4",
+    "wpackagist-plugin/codepress-admin-columns": "^3.0.3",
+    "wpackagist-plugin/admin-management-xtended": "^2.4.1",
     "wpackagist-plugin/admin-post-navigation": "^2.0",
-    "wpackagist-plugin/advanced-custom-fields": "^4.4.8",
-    "wpackagist-plugin/caldera-forms": "^1.4.8",
-    "wpackagist-plugin/code-snippets": "^2.8.4",
-    "wpackagist-plugin/custom-post-type-ui": "^1.5.1",
+    "wpackagist-plugin/advanced-custom-fields": "^4.4.11",
+    "wpackagist-plugin/akismet": "^3.3.4",
+    "wpackagist-plugin/caldera-forms": "^1.5.4",
+    "CenterValleyAnimalRescue/cvar-core-functionality": "^0.2.0",
+    "wpackagist-plugin/elementor": "^1.6.5",
+    "wpackagist-plugin/jetpack": "^5.2.1",
     "wpackagist-plugin/paypal-donations": "^1.9.3",
-    "wpackagist-plugin/jetpack": "^4.5",
-    "wpackagist-plugin/ml-slider": "^3.3.7",
-    "wpackagist-plugin/nav-menu-roles": "^1.8.3",
-    "wpackagist-plugin/shortcode-ui": "^0.7.0",
+    "wpackagist-plugin/the-events-calendar": "^4.5.10",
+    "wpackagist-plugin/void-elementor-post-grid-addon-for-elementor-page-builder": "^1.0.6",
+    "wpackagist-plugin/widget-css-classes": "^1.5.1",
     "wpackagist-plugin/post-type-archive-links": "^1.3.1",
-    "wpackagist-plugin/the-events-calendar": "^4.5.1",
-    "wpackagist-plugin/widget-css-classes": "^1.3.0",
-    "wpackagist-plugin/wp-media-categories": "^1.0.1",
-    "wpackagist-plugin/wp-term-colors": "^0.1.4",
-    "wpackagist-plugin/wp-term-icons": "^0.1.2",
-    "wpackagist-plugin/wp-term-images": "^1.0.0",
-    "CenterValleyAnimalRescue/pet-rescue": "^1.1.8",
-    "CenterValleyAnimalRescue/cvar-core-functionality": "0.1.1",
-    "CenterValleyAnimalRescue/center-valley-animal-rescue": "1.0.1"
+    "wpackagist-theme/understrap": "^0.6.5",
+    "CenterValleyAnimalRescue/center-valley-animal-rescue": "^3.0.0"
   },
   "require-dev": {
-      "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
-      "wpackagist-plugin/developer": "^1.2.6",
-      "wpackagist-plugin/simply-show-ids": "^1.3.3",
-      "wpackagist-plugin/which-template": "^4.0",
-      "wpackagist-plugin/wp-log-viewer": "^1.0.6"
+    "wpackagist-plugin/customizer-reset-by-wpzoom": "^1.0.1",
+    "wpackagist-plugin/debug-bar": "^0.9.0",
+    "wpackagist-plugin/debug-bar-console": "^0.3.0",
+    "wpackagist-plugin/debug-bar-extender": "^0.5.0",
+    "wpackagist-plugin/developer": "^1.2.6",
+    "wpackagist-plugin/simply-show-ids": "^1.3.3",
+    "wpackagist-plugin/which-template": "^4.0",
+    "wpackagist-plugin/wordpress-importer": "^0.6.3",
+    "wpackagist-plugin/wp-log-viewer": "^1.2.1"
   },
   "keywords": [
     "wordpress"
